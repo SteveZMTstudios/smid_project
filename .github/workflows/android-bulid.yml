@@ -2,7 +2,8 @@ on:
   push:
     branches:
       - master  # Replace 'main' with your default branch if different.
-
+  workflow_dispatch:
+  
 jobs:
   build:
     name: Build Android APK
